@@ -44,7 +44,7 @@ module ERBLint
             name_node = tag_node.to_a[1]
             add_offense(
               name_node.loc,
-              "Missing a `type=\"text/javascript\"` attribute to `<script>` tag.",
+              "Missing a type attribute to `<script>` tag.",
               [type_attribute],
             )
           elsif type_present && !@config.allowed_types.include?(type_attribute.value)

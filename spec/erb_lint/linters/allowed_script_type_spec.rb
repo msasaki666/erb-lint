@@ -86,7 +86,7 @@ describe ERBLint::Linters::AllowedScriptType do
           expect(subject).to(eq([
             build_offense(
               1..6,
-              "Missing a `type=\"text/javascript\"` attribute to `<script>` tag.",
+              "Missing a type attribute to `<script>` tag.",
             ),
           ]))
         end
@@ -98,7 +98,7 @@ describe ERBLint::Linters::AllowedScriptType do
           expect(subject).to(eq([
             build_offense(
               1..6,
-              "Missing a `type=\"text/javascript\"` attribute to `<script>` tag.",
+              "Missing a type attribute to `<script>` tag.",
             ),
           ]))
         end
