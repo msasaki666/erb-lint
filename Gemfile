@@ -9,3 +9,5 @@ group "test" do
 end
 
 gemspec
+
+gem "better_html", git: "https://github.com/msasaki666/better-html.git"

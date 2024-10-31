@@ -1,3 +1,16 @@
+GIT
+  remote: https://github.com/msasaki666/better-html.git
+  revision: b9f68ceeddd6a045bafff58cc23d828c3e1daaf2
+  branch: main
+  specs:
+    better_html (2.1.1)
+      actionview (>= 6.0)
+      activesupport (>= 6.0)
+      ast (~> 2.0)
+      erubi (~> 1.4)
+      parser (>= 2.4)
+      smart_properties
+
 PATH
   remote: .
   specs:
@@ -30,13 +43,6 @@ GEM
       tzinfo (~> 2.0)
     ast (2.4.2)
     base64 (0.2.0)
-    better_html (2.1.1)
-      actionview (>= 6.0)
-      activesupport (>= 6.0)
-      ast (~> 2.0)
-      erubi (~> 1.4)
-      parser (>= 2.4)
-      smart_properties
     bigdecimal (3.1.7)
     builder (3.2.4)
     concurrent-ruby (1.2.3)
@@ -115,6 +121,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  better_html!
   erb_lint!
   fakefs
   rake
